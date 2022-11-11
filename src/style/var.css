@@ -1,0 +1,14 @@
+:root{
+    --primary-color: #5e93f6;
+    --success-color: #5bba2c;
+    --warning-color: #ffaa00;
+    --error-color: #e93737;
+    --sheet-red: #f52020;
+    --header-height: 60px;
+    --main-font-size: 20px;
+    --small-font-size: 12px;
+    --normal-font-size: 14px;
+    --large-font-size: 16px;
+    --base-gap: 20px;
+    --module-gap: 20px;
+}

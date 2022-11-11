@@ -1,0 +1,108 @@
+@import "reset.css";
+@import "var.css";
+
+.text-center {
+    text-align: center;
+}
+
+.flex-center {
+    display: flex;
+    justify-content: center;
+}
+
+.el-input-number--mini {
+    width: 100px;
+}
+
+@media (min-width: 1200px) {
+    .options_dialog .el-dialog {
+        width: 60%;
+    }
+}
+
+@media (min-width: 1300px) {
+    .options_dialog .el-dialog {
+        width: 56%;
+    }
+}
+
+@media (min-width: 1400px) {
+    .options_dialog .el-dialog {
+        width: 52%;
+    }
+}
+
+@media (min-width: 1500px) {
+    .options_dialog .el-dialog {
+        width: 50%;
+    }
+}
+
+@media (min-width: 1600px) {
+    .options_dialog .el-dialog {
+        width: 46%;
+    }
+}
+
+@media (min-width: 1700px) {
+    .options_dialog .el-dialog {
+        width: 40%;
+    }
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    background-color: #F2F2F2;
+}
+
+hr {
+    height: 1px;
+    border: 0;
+    background-color: #eeeeee;
+    margin: 0;
+}
+
+.lx-q-1 {
+    /*display: inline-block;*/
+}
+
+.lx-q-2 {
+    /*display: inline-block;*/
+    /*margin: 2px 0;*/
+}
+
+.lx-q-2 pre {
+    /*display: inline-block;*/
+}
+
+.lx-q-2 img {
+    vertical-align: middle
+}
+
+/*!*横线*!*/
+.lx-q-3 {
+    text-decoration: underline;
+}
+
+/*!*波浪线*!*/
+.lx-q-4 {
+    border-bottom: 1px dashed #333;
+}
+
+/*!*!*上标*!*!*/
+/*!*.lx-q-5 {*!*/
+/*!*    vertical-align: super;*!*/
+/*!*}*!*/
+
+/*!*下标*!*/
+.lx-q-6 {
+    vertical-align: sub;
+}
+
+/*!*加点*!*/
+.lx-q-7 {
+    font-weight: bold;
+    border-bottom: 1px dashed #333;
+}
